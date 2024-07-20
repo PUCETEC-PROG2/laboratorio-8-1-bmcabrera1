@@ -122,6 +122,15 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
+#media files
+#indica de donde se toman las imagnes de los templates.
+MEDIA_URL = 'media/'
+
+
+#le indicio donde se van a cargar las imagenes
+MEDIA_ROOT = BASE_DIR/ 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
